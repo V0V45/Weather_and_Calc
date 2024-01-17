@@ -1,16 +1,9 @@
-# flutter_application_3
+# Weather and Calc
 
-A new Flutter project.
+В процессе изучения языка Dart с фреймворком Flutter создал приложение погоды и калькулятор, но, к сожалению, так их и не дописал.
 
-## Getting Started
+## Погода
+Приложение погоды (lib/main.dart) показывает погоду по СПб (примерно на острове Новая Голландия) и меняет картинку в соответствии с погодой. Также реализован экран поиска по городам (кнопка Search в приложении, в коде - lib/weather_search.dart), однако, сам поиск не был доделан.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Калькулятор
+Мое самое первое приложение на Flutter. Калькулятор (lib/calc.dart) умеет умножать, вычитать и складывать. К сожалению, все остальные арифметические действия не были доделаны.
